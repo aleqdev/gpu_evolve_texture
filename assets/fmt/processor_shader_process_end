@@ -1,0 +1,9 @@
+
+    // --------------------------------------------------------
+    // PROCESSOR_SHADER_PROCESS_END
+    // --------------------------------------------------------
+
+    storageBarrier();
+
+    textureStore(display_texture, location, color)
+}
